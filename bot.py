@@ -31,12 +31,12 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     
     # Inline buttons setup
     buttons = [
-        [InlineKeyboardButton("➕Let's Roll ➕", url="http://t.me/HYPERXMUSICROBOT?startgroup=botstart")],
+        [InlineKeyboardButton("➕ Lᴇᴛ's Rᴏʟʟ Bᴀʙʏ ➕", url="http://t.me/HYPERXMUSICROBOT?startgroup=botstart")],
         [
-            InlineKeyboardButton("Support", url="https://t.me/ACX_DISCUSSION"),
-            InlineKeyboardButton("Chat", url="https://t.me/ACX_NETWORK")
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ", url="https://t.me/ACX_DISCUSSION"),
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/ACX_NETWORK")
         ],
-        [InlineKeyboardButton("Owner 🧑🏻‍💻", url="https://t.me/THEHYPER_ACX")]
+        [InlineKeyboardButton("Oᴡɴᴇʀ 🧑🏻‍💻", url="https://t.me/THEHYPER_ACX")]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
     
