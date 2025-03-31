@@ -21,12 +21,12 @@ WAITING_FOR_TITLE, WAITING_FOR_LINKS = range(2)
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     image_url = "https://files.catbox.moe/3dn841.jpg"  # Replace with your image URL
     caption = (
-        "Hello! I'm a media-based keyword filter bot.👋🏻\n\nUse /setmedia to set a filter based on an image and "
+        "<b>Hello! I'm a ACX keyword filter bot..!! 🥀\n\nUse /setmedia to set a filter based on an image and "
         "links.\nHere's how:\n"
         "- Reply to an image with /setmedia\n"
         "- Provide a title when prompted\n"
         "- Provide labeled links in the format `Label - Link, Label - Link` when prompted\n"
-        "Once set, typing the keyword will display the image, title, and links."
+        "Once set, typing the keyword will display the image, title, and links.</b>"
     )
     
     # Inline buttons setup
