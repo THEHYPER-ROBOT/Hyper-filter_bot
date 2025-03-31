@@ -19,7 +19,7 @@ WAITING_FOR_TITLE, WAITING_FOR_LINKS = range(2)
 
 # Start command with image and inline buttons
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    image_url = "https://i.ibb.co/NS8hdGZ/file-1157.jpg"  # Replace with your image URL
+    image_url = "https://files.catbox.moe/3dn841.jpg"  # Replace with your image URL
     caption = (
         "Hello! I'm a media-based keyword filter bot.👋🏻\n\nUse /setmedia to set a filter based on an image and "
         "links.\nHere's how:\n"
